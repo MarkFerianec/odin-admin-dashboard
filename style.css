@@ -111,9 +111,10 @@ button {
     grid-template-columns: 2.5fr 1fr;
 
     grid-template-rows: 1fr;
-    /* Maybe comment this out later?  */
+    /* Maybe comment/delete this later? Because it may be unnecessary */
 
     /* grid-gap: 50px; */
+    column-gap: 1vw;
 }
 
 .your-projects {
@@ -126,11 +127,7 @@ button {
     /* grid-template-rows: repeat(20, 0.5fr); */
     /* grid-template-rows: repeat(10, 1fr); */
     /* grid-template-rows: auto; */
-}
-
-.your-projects h1 {
     margin-left: 1vw;
-    /* CHANGE THIS TO RESPONSIVE UNITS */
 }
 
 .projects {
@@ -142,12 +139,19 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 1vh;
+    /* gap: 1vh; */
     /* CHANGE THIS TO RESPONSIVE UNITS */
 
-    margin: 1vh;
+    /* margin: 1vh; */
     /* CHANGE THIS TO RESPONSIVE UNITS */
+    /* margin-left: 1vh; */
+    gap: 1vw;
 }
+
+/* .something { */
+    /* display: grid; */
+    /* grid-template-rows: 1fr 1fr; */
+/* } */
 
 /* .something { */
     /* display: grid; */
@@ -170,9 +174,10 @@ button {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
 
-    display: grid;
+    /* display: grid; */
     /* grid-template-rows: repeat(10, 1fr); */
     /* grid-template-rows: repeat(20, 0.5fr); */
+    margin-right: 1vw;
 }
 
 /* .your-announcements {
@@ -207,6 +212,12 @@ button {
 .trending {
     background-color: #ffffff;
     border-radius: 1vw;
+    padding: 2vw;
+}
+
+.your-projects h1 {
+    margin-left: 1vw;
+    /* CHANGE THIS TO RESPONSIVE UNITS */
 }
 
 h1, h2, h3, p {
