@@ -123,10 +123,23 @@ button {
     grid-column: 1 / 2;
     /*This may be redundant*/
 
-    /* display: grid; */
+
+
+    display: grid;
+    /* grid-template-rows: 1fr 1fr; */
+    grid-template-rows: 0fr 1fr;
+    /* grid-template-rows: 0 1fr; */
+    /* grid-template-rows: 55px 1fr; */
+
+
+    /* grid-template-rows: repeat(4, 1fr); */
+    /* grid-template-rows: 1fr; */
     /* grid-template-rows: repeat(20, 0.5fr); */
     /* grid-template-rows: repeat(10, 1fr); */
     /* grid-template-rows: auto; */
+
+
+
     margin-left: 1vw;
 }
 
@@ -146,20 +159,24 @@ button {
     /* CHANGE THIS TO RESPONSIVE UNITS */
     /* margin-left: 1vh; */
     gap: 1vw;
+
+
+    /* height: 1000px; */
+    /* something like this maybe will fix it??? */
 }
 
 /* .something { */
-    /* display: grid; */
-    /* grid-template-rows: 1fr 1fr; */
+/* display: grid; */
+/* grid-template-rows: 1fr 1fr; */
 /* } */
 
 /* .something { */
-    /* display: grid; */
-    /* grid-template-rows: auto; */
-    /* grid-template-rows: repeat(20, 0.5fr); */
-    /* gap: 20px; */
-    /* margin: 1vh; */
-    /* grid-template-rows: repeat(10, 1fr); */
+/* display: grid; */
+/* grid-template-rows: auto; */
+/* grid-template-rows: repeat(20, 0.5fr); */
+/* gap: 20px; */
+/* margin: 1vh; */
+/* grid-template-rows: repeat(10, 1fr); */
 /* } */
 
 /* .announcements {
@@ -215,12 +232,15 @@ button {
     padding: 2vw;
 }
 
-.your-projects h1 {
+/* .your-projects h1 {
     margin-left: 1vw;
-    /* CHANGE THIS TO RESPONSIVE UNITS */
-}
+    CHANGE THIS TO RESPONSIVE UNITS
+} */
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
     font-family: 'Roboto', sans-serif;
 }
 
