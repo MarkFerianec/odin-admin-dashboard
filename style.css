@@ -17,7 +17,7 @@ html {
     background-color: #0ea5e9;
 
     display: grid;
-    grid-template-rows: 1fr 2fr 5fr;
+    grid-template-rows: 0.5fr 2fr 5fr;
 
     z-index: 3;
 }
@@ -31,13 +31,14 @@ html {
     gap: 0.5vw;
     padding-left: 1vw;
     align-self: center;
-    margin-bottom: 5vh;
 }
 
 .upper-navigation {
     grid-row: 2 / 3;
 
     font-size: 1vw;
+
+    padding-top: 2vh;
 }
 
 .lower-navigation {
@@ -294,7 +295,24 @@ p {
     font-size: ;
 } */
 
-.sidebar-icon-color {
+.dashboard-icon {
     filter: invert(100%) sepia(1%) saturate(59%) hue-rotate(94deg) brightness(115%) contrast(100%);
     width: 3vw;
+}
+
+.navigation-icon {
+    filter: invert(100%) sepia(1%) saturate(59%) hue-rotate(94deg) brightness(115%) contrast(100%);
+    width: 1.5vw;
+}
+
+.navigation-style {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
 }
