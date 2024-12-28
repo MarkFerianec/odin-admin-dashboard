@@ -13,10 +13,8 @@ An admin dashboard using mostly CSS grid.
 
 ## Installation
 
-To install the project, follow these steps:
+To download the project, follow these steps:
 
 ```bash
 git clone git@github.com:MarkFerianec/odin-admin-dashboard.git
-cd odin-admin-dashboard
-npm install
 ```
